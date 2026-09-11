@@ -12,7 +12,7 @@ interface Props {
   sites: Site[];
   departments: Department[];
   emissionFactors: EmissionFactor[];
-  source: 'database | sample';
+  source: 'database' | 'sample';
   reportingPeriodId?: string;
   reportingPeriodLabel: string;
 }
