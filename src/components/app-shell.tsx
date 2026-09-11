@@ -22,7 +22,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         <div className="mb-8 flex items-center gap-3">
           <div className="grid h-11 w-11 place-items-center rounded-lg bg-[#51b879] font-bold text-[#0d2118]">C</div>
           <div>
-            <div className="font-bold">{t('Carbon Assistant')}</div>
+            <div className="font-bold">{t('G-Emission Assistant')}</div>
             <div className="text-sm text-[#a8c6b6]">ISO 14064-1 / TGO CFO</div>
           </div>
         </div>
