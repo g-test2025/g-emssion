@@ -51,7 +51,7 @@
 
   function projectPayload() {
     return {
-      app: 'ESG Carbon Report Assistant',
+      app: 'G-Emission ESG Carbon Report Assistant',
       format: 'github-pages-demo-workspace',
       version: 1,
       exportedAt: new Date().toISOString(),
