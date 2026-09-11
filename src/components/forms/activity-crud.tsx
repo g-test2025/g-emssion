@@ -131,10 +131,10 @@ export function ActivityCrud({ activities, sites, departments, emissionFactors, 
   async function save() {
     setMessage('');
     if (!validate()) return;
-    if (source === 'sample') {
-      setMessage('Demo mode: connect DATABASE_URL to save activity records.');
-      return;
-    }
+    //if (source === 'sample') {
+     // setMessage('Demo mode: connect DATABASE_URL to save activity records.');
+      //return;
+    //}
     const payload = {
       reportingPeriodId,
       month: form.month,
