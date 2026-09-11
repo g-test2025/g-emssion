@@ -23,7 +23,7 @@ export default async function DashboardPage() {
 
   return (
     <div>
-      <PageHeader eyebrow="Phase 2.2" title="ESG Carbon Report Assistant" description={`Database-backed scaffold for ISO 14064-1, TGO CFO, GHG Inventory, evidence readiness, and ESG report generation. Data source: ${source}.`} />
+      <PageHeader eyebrow="Phase 2.2" title="G-Emission ESG Carbon Report Assistant" description={`Database-backed scaffold for ISO 14064-1, TGO CFO, GHG Inventory, evidence readiness, and ESG report generation. Data source: ${source}.`} />
       <div className="mb-5 grid grid-cols-4 gap-4 max-xl:grid-cols-2 max-md:grid-cols-1">
         <Card><p className="text-sm text-carbon-muted"><T>Total emissions</T></p><strong className="mt-2 block text-3xl">{format(total)} tCO2e</strong><span className="text-sm text-carbon-muted">FY{organization.reportingYear}</span></Card>
         {Object.entries(scopeSummary).map(([scope, value]) => <Card key={scope}><p className="text-sm text-carbon-muted">{scope}</p><strong className="mt-2 block text-3xl">{format(value)}</strong><span className="text-sm text-carbon-muted">tCO2e</span></Card>)}
