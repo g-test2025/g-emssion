@@ -4,7 +4,7 @@ import { AppShell } from '@/components/app-shell';
 import { LanguageProvider } from '@/components/language-provider';
 
 export const metadata: Metadata = {
-  title: 'ESG Carbon Report Assistant',
+  title: 'G-Emission ESG Carbon Report Assistant',
   description: 'ESG, CFO, ISO 14064-1, and GHG Inventory reporting system'
 };
 
